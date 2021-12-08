@@ -16,7 +16,7 @@ import os
 import cv2
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = './static/uploads/'
+app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 model = load_model('modeldaun.h5')
 
 class_dict = {0: 'Elephant (Gajah)', 1: 'Lion (Singa)'}
