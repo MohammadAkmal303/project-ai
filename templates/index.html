@@ -8,7 +8,7 @@
             href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
             rel="stylesheet"
         />
-        <title>Model Deploy 5G</title>
+        <title>leaf Prediction</title>
     </head>
     <body>
         <section
@@ -54,11 +54,11 @@
                     "
                 >
                     <p class="text-center">
-                        Masukkan gambar
+                        Insert Leaf Image
                     </p>
                 </div>
                 {% endif %} {% if prediction %}
-                <p class="mb-8">Hasil Perkiraan: {{prediction}}</p>
+                <p class="mb-8">Prediction Result: {{prediction}}</p>
                 {% endif %}
 
                 <form
@@ -81,7 +81,7 @@
                         type="submit"
                         class="p-4 bg-purple-400 text-white rounded-md"
                     >
-                        Prediksi Gambar
+                        Leaf Prediction
                     </button>
                 </form>
             </main>
